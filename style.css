@@ -1,0 +1,27 @@
+body{
+background-image:url("background1.png");
+}
+
+.header {
+    background-image:url("background.jpg");
+    display : flex;
+    justify-content:space-between;
+    font-size:20px;
+    color:white;
+    text-align:  center;
+    text-shadow: 2px 2px red;
+}
+
+.grid{
+border:2px solid black;
+border-radius:50px;
+display : flex;
+flex-wrap:wrap;
+}
+
+.origami{
+    border-radius:20px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
